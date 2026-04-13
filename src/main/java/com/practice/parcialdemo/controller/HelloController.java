@@ -12,4 +12,10 @@ public class HelloController {
     public String hola() {
         return "Hola Silva";
     }
+
+    @GetMapping("/Hola/Viejo")
+    public String holaViejo() {
+        System.out.println("Print diferente desde rama silva2");
+        return "Hola Silva Viejo";
+
 }
